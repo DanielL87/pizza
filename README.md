@@ -13,8 +13,8 @@ Known Bugs
 No known bugs.
 
 Specifications
-The program should...	Example Input	Example Output
-Calculate the price of a custom pizza based on the options selected: Size-Small, 8"; Pepperoni; Pineapple; Red Onions; $11.00
+The program should: Calculate the price of a custom pizza based on the options selected.
+Example: Size-Small, 8"; Pepperoni; Pineapple; Red Onions; $11.00
 
 Contact me at devidra87@gmail.com for support in running this program.
 
@@ -24,7 +24,7 @@ CSS
 Bootstrap
 jQuery
 JavaScript
-Git Hub Webpage:
+Git Hub Webpage: https://daniell87.github.io/pizza/
 
 License
 Free for Public Use
