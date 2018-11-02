@@ -1,8 +1,9 @@
+//Back End Code
 function Order (pizzaSize, toppings) {
   this.pizzaSize = pizzaSize;
-  this.sauce = 1;
-  this.cheese = 1;
-  this.toppings = toppings * 1.5;
+  // this.sauce = 1;
+  // this.cheese = 1;
+  this.toppings = (toppings.length) * 1.5;
   this.price = 0
 }
 
@@ -14,24 +15,29 @@ Order.prototype.finalCost = function (){
   } else if (this.pizzaSize == "large") {
   this.price += 10
   }
-  this.price += this.sauce;
-  this.price += this.cheese;
+  // this.price += this.sauce;
+  // this.price += this.cheese;
   this.price += this.toppings;
   return this.price
 }
 
+//Front End Code
+
+$(document).ready(function(event){
+  $("#placeOrder").click(function(){
+    $(".cost").show();
+    $("#cost").text(cost);
+    var pizzaSize = $("input:radio[name=flavor]:checked").val();
+    var toppings = [];
+      $("input:checkbox[name=toppings]:checked").each(function(){
+        if ($(this).is(':checked')) {
+           var checked = ($(this).val());
+           toppings.push(checked);
+         }
+      });
 
 
-
-var pizzaSize = "small"
-var toppings = 3
-
-var newPizza = new Order (pizzaSize, toppings);
-
-
-
-
-
-newPizza.finalCost();
-
-console.log(newPizza.price)
+    var newPizza = new Order (pizzaSize, toppings);
+    var cost = newPizza.finalCost();
+  });
+});
