@@ -1,7 +1,25 @@
 body {
-
+  background-color: black;
+  color: white;
 }
 
-h3{
+h3 {
+  color: Red;
+}
+h4{
   display: none;
+  margin-top: 20px;
+}
+
+/* .pizza {
+  height:200px;
+  width:200px;
+} */
+
+p{
+  color:white;
+}
+
+button {
+  margin-top: 20px;
 }
