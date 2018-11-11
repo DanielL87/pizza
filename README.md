@@ -3,7 +3,7 @@ Independent Project for Epicodus
 https://daniell87.github.io/pizza/
 
 A webpage for a simple pizza delivery form.
-By Daniel
+By Daniel Lira
 
 Description
 A webpage for a simple pizza delivery form. There is a "pizza" constructor which takes the users input and makes an object as well as a prototype function which calculates the cost of the pizza order.
@@ -16,7 +16,7 @@ Program displays cost of pizza	newPizza.cost()	$10
 
 Setup/Installation Requirements
 Clone this repository on GitHub
-
+https://github.com/DanielL87/pizza.git
 Open the index.html file in a web browser to view the webpage
 Open files using text editor (such as Atom) to view the code
 
