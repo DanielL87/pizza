@@ -1,32 +1,40 @@
-Pizza Order
-Object-Oriented JavaScript Independent Project for Epicodus, 11.2.18
-By Daniel Lira
+Pizza Shop
+Independent Project for Epicodus
+https://daniell87.github.io/pizza/
+
+A webpage for a simple pizza delivery form.
+By Daniel
+
 Description
-This program allow a user to create a custom pizza and shows the total of their order in a Cart in the sidebar. The user can also choose between delivery or takeout, and add sides to the order.
+A webpage for a simple pizza delivery form. There is a "pizza" constructor which takes the users input and makes an object as well as a prototype function which calculates the cost of the pizza order.
+
+Specs
+Spec	Input	Output
+Program accepts user input and constructs a 'pizza' object	"pepperoni", "pineapple"	this.toppings = ["pepperoni", "pineapple"]
+Program utilizes a prototype function to compute price of a pizza object	this.cost	if else statements to modify price
+Program displays cost of pizza	newPizza.cost()	$10
 
 Setup/Installation Requirements
-This program can only be accessed on a computer with Git and Atom installed.
+Clone this repository on GitHub
 
-Clone this repository
-Open index.html in Terminal
+Open the index.html file in a web browser to view the webpage
+Open files using text editor (such as Atom) to view the code
+
 Known Bugs
-No known bugs.
-
-Specifications
-The program should...	Example Input	Example Output
-Calculate the price of a custom pizza based on the options selected: Size-Small, 8"; Pepperoni; Pineapple; Red Onions; $11.00
-
-Contact me at devidra87@gmail.com for support in running this program.
+No known bugs at this time.
 
 Technologies Used
-HTML
-CSS
-Bootstrap
-jQuery
-JavaScript
-Git Hub Webpage:
+- HTML
+- CSS-
+- Bootstrap
+- JavaScript
+- jQuery
+- Support and contact details
+
+- Contact Daniel Lira _devidra87@gmail.com_
 
 License
-Free for Public Use
+{This software is licensed under the MIT license}
 
 Copyright (c) 2018 Daniel Lira
+
