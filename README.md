@@ -15,10 +15,10 @@ Program utilizes a prototype function to compute price of a pizza object	this.co
 Program displays cost of pizza	newPizza.cost()	$10
 
 Setup/Installation Requirements
-Clone this repository on GitHub
+- Clone this repository on GitHub
 https://github.com/DanielL87/pizza.git
-Open the index.html file in a web browser to view the webpage
-Open files using text editor (such as Atom) to view the code
+- Open the index.html file in a web browser to view the webpage
+- Open files using text editor (such as Atom) to view the code
 
 Known Bugs
 No known bugs at this time.
